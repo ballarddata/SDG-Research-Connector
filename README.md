@@ -12,3 +12,6 @@ Track cross-campus collaboration outcomes.
 Problem: It is hard to find collaborators across schools who work on the same SDG topics.
 Solution: A directory + search that links researchers, projects, and papers to SDGs, powered by public scholar data and light curation.
 Output: Web app with person and topic pages, and SDG maps
+
+# ERD Sketch
+<img width="3092" height="2228" alt="BC-SDG-2025-11-05-052332" src="https://github.com/user-attachments/assets/4d86df32-52ba-4eec-8736-dc77bce8c71b" />
