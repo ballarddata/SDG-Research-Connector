@@ -14,4 +14,4 @@ Solution: A directory + search that links researchers, projects, and papers to S
 Output: Web app with person and topic pages, and SDG maps
 
 # ERD Sketch
-<img width="3092" height="2228" alt="BC HR-2025-11-05-052615" src="https://github.com/user-attachments/assets/4a25ca66-2749-45c1-857b-750af6402654" />
+<img width="5117" height="2837" alt="SRC-ERD" src="https://github.com/user-attachments/assets/2a91a45e-fe19-46e7-992e-a0a1f11659cc" />
