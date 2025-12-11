@@ -46,7 +46,12 @@ function App() {
     setLoading(true)
     setStatus({ type: 'idle', message: '' })
 
-    const { error } = await supabase.auth.signInWithOtp({ email })
+    const emailRedirectTo = typeof window !== 'undefined' ? window.location.origin : undefined
+
+    const { error } = await supabase.auth.signInWithOtp({
+      email,
+      options: emailRedirectTo ? { emailRedirectTo } : undefined,
+    })
 
     if (error) {
       setStatus({ type: 'error', message: error.message })
