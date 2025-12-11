@@ -1,17 +1,16 @@
-# SDG-Research-Connector
-A way to connect university researchers whose research may align to the UN Sustainable Development Goals.
+# React + Vite
 
-# Purpose and goals
-Connect BYU researchers with peers at other universities whose work aligns with UN SDGs.
-Reduce search time for collaborators, mentors, and co-authors.
-Map people, projects, and publications to SDG targets and indicators.
-Provide a simple “who’s working on X?” search with contact context.
-Track cross-campus collaboration outcomes.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Quick summary
-Problem: It is hard to find collaborators across schools who work on the same SDG topics.
-Solution: A directory + search that links researchers, projects, and papers to SDGs, powered by public scholar data and light curation.
-Output: Web app with person and topic pages, and SDG maps
+Currently, two official plugins are available:
 
-# ERD Sketch
-<img width="5117" height="2837" alt="SRC-ERD" src="https://github.com/user-attachments/assets/2a91a45e-fe19-46e7-992e-a0a1f11659cc" />
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
